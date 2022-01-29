@@ -1,4 +1,4 @@
-
+// Part one
 function needsLicense(kind){
     return kind === 'car'|| kind === 'truck'
 }
@@ -6,8 +6,14 @@ console.log(needsLicense('car'))
 
 
 
+// Part Two 
 
 
+// My thinking process was to create a for loop 
+// to loop through each character that was inputed as the
+//parameter.  I had trouble trying to compare the values 
+// of each  letter. For example how could i tel the computer that A comes before Z 
+//  
 /*function chooseVehicle(option1, option2){
 
 
