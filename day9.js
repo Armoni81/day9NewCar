@@ -33,6 +33,10 @@ for (var i = 0; i < toArray1.length; i++) {
   //return  toArray1.charAt(i)
 } */
  
+
+// THis is the actual soultion to  part two but i dont understand 
+// how it works. What in the code is telling the computer  
+//that A comes before z.
 function chooseVehicle(option1, option2) {
     
 return `${option1 < option2 ? option1 : option2} is clearly the better choice.`;
